@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata minClientVersion="2.5">
+    <id>YexuanXiao.CppWinRTPlus.Ext</id>
+    <version>$target_version$</version>
+    <title>C++/WinRT Module Extensions</title>
+    <authors>Yexuan Xiao</authors>
+    <owners>Yexuan Xiao</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>C++20 module interface extensions for C++/WinRT and Windows App SDK interop helpers.</description>
+    <releaseNotes></releaseNotes>
+    <tags>native C++ WinRT CppWinRT modules WindowsAppSDK interop nativepackage</tags>
+    <license type="file">LICENSE</license>
+    <projectUrl>https://github.com/YexuanXiao/cppwinrtext</projectUrl>
+    <readme>readme.md</readme>
+    <dependencies>
+      <dependency id="Microsoft.Windows.CppWinRT" version="(3.0.0.0, 4.0.0.0)"/>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="LICENSE" target="LICENSE"/>
+    <file src="readme.md" target="readme.md"/>
+    <file src="YexuanXiao.CppWinRTPlus.Ext.props" target="build\native"/>
+    <file src="YexuanXiao.CppWinRTPlus.Ext.targets" target="build\native"/>
+    <file src="*.ixx" target="build\native\cppwinrtplus"/>
+  </files>
+</package>

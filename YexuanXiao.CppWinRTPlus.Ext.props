@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+
+  <PropertyGroup>
+    <CppWinRTPlusExtPackageDir Condition="'$(CppWinRTPlusExtPackageDir)' == ''">$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\..\'))</CppWinRTPlusExtPackageDir>
+    <CppWinRTPlusExtSourceDir Condition="'$(CppWinRTPlusExtSourceDir)' == ''">$(CppWinRTPlusExtPackageDir)build\native\cppwinrtplus\</CppWinRTPlusExtSourceDir>
+  </PropertyGroup>
+
+</Project>
