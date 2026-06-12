@@ -35,7 +35,7 @@ void PrepareDLL()
     if (FrameworkUdk.load() != nullptr)
         return;
 
-    HMODULE hmod = ::LoadLibrary(L"Microsoft.Internal.FrameworkUdk.dll");
+    HMODULE hmod = ::LoadLibraryW(L"Microsoft.Internal.FrameworkUdk.dll");
 
     assert(hmod != nullptr);
 
