@@ -11,7 +11,7 @@
     <releaseNotes></releaseNotes>
     <tags>native C++ WinRT CppWinRT modules WindowsAppSDK interop nativepackage</tags>
     <license type="file">LICENSE</license>
-    <projectUrl>https://github.com/YexuanXiao/cppwinrtext</projectUrl>
+    <projectUrl>https://github.com/YexuanXiao/winrtplusext</projectUrl>
     <readme>readme.md</readme>
     <dependencies>
       <dependency id="Microsoft.Windows.CppWinRT" version="(3.0.0.0, 4.0.0.0)"/>

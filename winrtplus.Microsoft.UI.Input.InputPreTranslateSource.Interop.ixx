@@ -2,6 +2,7 @@ module;
 
 #include <sdkddkver.h>
 #include <windows.h>
+#include <unknwn.h>
 
 export module winrtplus.Microsoft.UI.Input.InputPreTranslateSource.Interop;
 

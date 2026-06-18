@@ -1,7 +1,7 @@
 module;
 
-#include <windows.h>
 #include <sdkddkver.h>
+#include <windows.h>
 #include <inspectable.h>
 
 export module winrtplus.Microsoft.UI.Input.InputCursor.Interop;

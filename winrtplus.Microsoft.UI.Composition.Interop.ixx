@@ -2,6 +2,8 @@ module;
 
 #include <sdkddkver.h>
 #include <windows.h>
+#include <unknwn.h>
+#include <sal.h>
 
 export module winrtplus.Microsoft.UI.Composition.Interop;
 
@@ -12,8 +14,7 @@ import winrt.Microsoft.UI.Composition;
 
 extern "C++"
 {
-
-    // Workaround
+// Workaround
 #ifdef _MSC_VER
 #pragma warning(push)
 #pragma warning(disable : 5244)
