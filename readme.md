@@ -70,7 +70,7 @@ Wraps `winrt/Microsoft.UI.Input.InputPreTranslateSource.Interop.h`:
 
 ## Requirements
 
-- Microsoft.Windows.CppWinRT 3.0.
+- Microsoft.Windows.CppWinRT 3.0 or YexuanXiao.CppWinRTPlus 3.1.
 - Microsoft.WindowsAppSDK.InteractiveExperiences 2.0 (optional).
 - Enable C++/WinRT module generation with `CppWinRTBuildModule`.
 - Enable STL module support with `BuildStlModules`.
