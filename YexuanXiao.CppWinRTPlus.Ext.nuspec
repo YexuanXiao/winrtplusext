@@ -13,9 +13,6 @@
     <license type="file">LICENSE</license>
     <projectUrl>https://github.com/YexuanXiao/winrtplusext</projectUrl>
     <readme>readme.md</readme>
-    <dependencies>
-      <dependency id="Microsoft.Windows.CppWinRT" version="(3.0.0.0, 4.0.0.0)"/>
-    </dependencies>
   </metadata>
   <files>
     <file src="LICENSE" target="LICENSE"/>
